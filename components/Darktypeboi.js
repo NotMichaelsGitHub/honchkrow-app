@@ -12,7 +12,6 @@ const Main = (props) => {
 
   return(
     <>     
-
       <img 
         onClick={() => { addCrow() }} 
         src="http://static.pokemonpets.com/images/monsters-images-800-800/430-Honchkrow.png"
@@ -21,7 +20,6 @@ const Main = (props) => {
       <p>
         Times clicked: {props.crows.count}
       </p>
-
     </>
   )
 }
