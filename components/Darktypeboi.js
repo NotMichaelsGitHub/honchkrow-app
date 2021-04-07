@@ -18,7 +18,7 @@ const Main = (props) => {
       ></img>
 
       <p>
-        Times clicked: {props.crows.count}
+        Times clicked : {props.crows.count}
       </p>
     </>
   )
